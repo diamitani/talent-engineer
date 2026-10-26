@@ -1,0 +1,6 @@
+{
+  "mcpServers": {
+    "greenhouse": { "type": "http", "url": "https://mcp.greenhouse.io/mcp" },
+    "gem": { "type": "http", "url": "https://mcp.gem.com/mcp" }
+  }
+}

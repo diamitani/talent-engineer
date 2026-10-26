@@ -1,0 +1,68 @@
+{
+  "candidate": "Sample Candidate (fake data)",
+  "role": "Senior Data Engineer",
+  "generated": "2026-10-26T06:00:00-05:00",
+  "sections": {
+    "workday": {
+      "status": "ok",
+      "fetched_at": "2026-10-26T05:55:00-05:00",
+      "items": [
+        {
+          "label": "Requisition",
+          "value": "REQ-1042, open, approved headcount 1"
+        },
+        {
+          "label": "Offer",
+          "value": "Not yet created"
+        }
+      ]
+    },
+    "greenhouse": {
+      "status": "ok",
+      "fetched_at": "2026-10-26T05:55:00-05:00",
+      "items": [
+        {
+          "label": "Stage",
+          "value": "Onsite complete, awaiting debrief"
+        },
+        {
+          "label": "Scorecards",
+          "value": "3 of 4 submitted"
+        },
+        {
+          "label": "Last candidate contact",
+          "value": "2026-10-23T12:00:00-05:00 (synthetic timestamp)"
+        }
+      ]
+    },
+    "gem": {
+      "status": "ok",
+      "fetched_at": "2026-10-26T05:55:00-05:00",
+      "items": [
+        {
+          "label": "Source",
+          "value": "Gem project: Data Eng outbound Q4"
+        },
+        {
+          "label": "Outreach",
+          "value": "2 emails, 1 reply"
+        }
+      ]
+    },
+    "brighthire": {
+      "status": "unavailable",
+      "reason": "auth: token expired, re-connect the connector",
+      "items": []
+    }
+  },
+  "evidence_coverage": {
+    "topics_covered": 6,
+    "topics_total": 8,
+    "source": "Synthetic rubric fixture, independent of unavailable BrightHire",
+    "fetched_at": "2026-10-26T05:55:00-05:00"
+  },
+  "open_items": [
+    "Fourth scorecard overdue",
+    "Candidate feedback due within 48h of onsite"
+  ]
+}
